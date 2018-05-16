@@ -1,0 +1,26 @@
+{
+  "name": "test-dep",
+  "version": "1.0.0",
+  "description": "this is a test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hi-larry/TestDep.git"
+  },
+  "author": "Hilary Chan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hi-larry/TestDep/issues"
+  },
+  "homepage": "https://github.com/hi-larry/TestDep#readme",
+  "devDependencies": {
+    "ioredis": "^2.5.0"
+  },
+  "dependencies": {
+    "test-dep-bar": "file:bar",
+    "test-dep-foo": "file:foo"
+  }
+}

@@ -11,3 +11,6 @@ Testing dependencies
 **Updating package.json using the command** 
 (in branch _command-only_)
 1. In a terminal, run `npm install ioredis@3.2.2 --package-lock-only`
+
+
+Compare both package-lock.json files.

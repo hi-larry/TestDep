@@ -21,6 +21,6 @@
     "foo": "../foo/foo-1.0.0.tgz"
   },
   "devDependencies": {
-    "ioredis": "^2.5.0"
+    "ioredis": "^3.2.2"
   }
 }

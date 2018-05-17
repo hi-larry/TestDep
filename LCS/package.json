@@ -1,5 +1,5 @@
 {
-  "name": "testdep",
+  "name": "LCS",
   "version": "1.0.0",
   "description": "Testing dependencies",
   "main": "index.js",
@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/hi-larry/TestDep#readme",
   "dependencies": {
-    "bar": "file:bar",
-    "foo": "file:foo"
+    "bar": "../bar/bar-1.0.0.tgz",
+    "foo": "../foo/foo-1.0.0.tgz"
   },
   "devDependencies": {
     "ioredis": "^2.5.0"
